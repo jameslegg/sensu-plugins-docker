@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version  = '>= 2.0.0'
   s.summary                = 'Sensu plugins for docker'
   s.test_files             = s.files.grep(%r{^(test|spec|features)/})
-  s.version                = SensuPluginsDocker::Version::VER_STRING
+  s.version                = "#{SensuPluginsDocker::Version::VER_STRING}-fork"
 
   s.add_runtime_dependency 'docker-api',    '1.21.0'
   s.add_runtime_dependency 'sensu-plugin',  '~> 1.2'
